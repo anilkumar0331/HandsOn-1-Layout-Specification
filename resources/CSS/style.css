@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+html,
+body {
+    max-width: 1000px;
+    max-height: 2000px;
+    font-family: 'Calibri';
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===========================
+      HEADER
+===========================*/
+header {
+    background-color: #333333;
+    padding: 5px 25px 5px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div h1 {
+    font-size: 48pt;
+    color: white;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header li a {
+    color: white;
+    font-size: 16pt;
+}
+
+/*================================
+      NAV-BAR FOR ALL PRODUCTS
+==================================*/
+
+.products-navbar {
+    padding: 10px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-navbar div ul {
+    padding-top: 5px;
+}
+
+.products-navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.products-navbar li a {
+    color: #333333;
+    font-size: 16pt;
+}
+
+.products-navbar input {
+    width: 110%;
+    padding: 10px;
+    border: 1.5px solid black;
+}
+
+/*===========================
+     SUMMARY
+===========================*/
+.main-section {
+    display: flex;
+    background-color: #EDEDEF;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section div {
+    color: #333333;
+}
+
+.image-div img {
+    height: 200px;
+}
+
+.msg-div {
+    flex-basis: 90%;
+}
+
+.msg-div h3 {
+    font-size: 58pt;
+    text-align: left;
+}
+
+.details-div p {
+    font-size: 18pt;
+    text-align: left;
+}
+
+/*===========================
+      DEALS OF THE DAY
+===========================*/
+.deals-section {
+    padding: 20px 45px 0 45px;
+    margin-top: 0;
+}
+
+.deals-section h3 {
+    color: #333333;
+    font-size: 30pt;
+}
+
+.deals-section h3 span {
+    font-size: 50pt;
+}
+
+.deals-container {
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals-container figure {
+    flex: 1;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.deals-container img {
+    height: 140px;
+    width: 100%;
+}
+
+.deals-container figcaption {
+    font-size: 15px;
+    color: #333333;
+    text-align: center;
+}
+
+/*===========================
+      FASHION CATEGORIES
+===========================*/
+
+.fashion-section {
+    padding: 20px 45px;
+}
+
+.fashion-section h2 {
+    color: #333333;
+    font-size: 30pt;
+}
+
+.fashion-section h2 span {
+    font-size: 50pt;
+}
+
+.fashion-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fashion-container div {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fashion-container div:last-child {
+    margin-top: 35px;
+}
+
+.fashion-container figure {
+    padding: 3px;
+    background-color: #dbf3fa;
+    text-align: center;
+}
+
+.fashion-container figcaption {
+    font-size: 20pt;
+    color: #333333;
+}
+
+.fashion-container img {
+    height: 180px;
+    width: 170px;
+}
+
+/*===========================
+      BRANDS
+===========================*/
+
+.brands {
+    padding: 20px 45px;
+}
+
+.brands p {
+    color: #333333;
+    font-size: 14pt;
+    text-align: left;
+    line-height: 2.0;
+}
+
+
+/*===========================
+      FOOTER
+===========================*/
+footer {
+    background-color: #131a22;
+    color: white;
+    width: 100%;
+    padding: 20px 45px 40px 45px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    list-style: none;
+    padding-top: 8px;
+}
+
+footer h3 {
+    font-size: 18pt;
+}
+
+footer a {
+    color: white;
+    font-size: 16pt;
+}
+
+footer div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
