@@ -7,8 +7,6 @@
 
 html,
 body {
-    max-width: 1000px;
-    max-height: 2000px;
     font-family: 'Calibri';
     text-rendering: optimizeLegibility;
 }
